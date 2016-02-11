@@ -10,16 +10,24 @@ TODO:
 
     [x] Connect Coveralls / Codeship / Code Climate
 
-    [] Set up MVC
+    [x] Set up MVC
+
+    [x] Deploy to Heroku
 
     [] Create index page
 
-    []
+    [] Create projects page
+
+    [] Create bio page
+
+    [] Create message submission
+
+    [] Blog?
 
 
   CSS:
 
-    [] Implement foundation
+    [x] Implement foundation
 
     [] Clean CSS
 
