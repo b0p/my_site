@@ -19,6 +19,7 @@ group :development, :test do
   gem 'valid_attribute'
   gem 'quiet_assets'
   gem 'byebug'
+  gem 'will_paginate'
 end
 
 group :development do

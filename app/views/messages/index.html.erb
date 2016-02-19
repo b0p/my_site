@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="small-12 small-centered columns display-messeges text-center">
+    <h2 id="display-messages-header">Messages</h2>
+      </br>
+      <hr>
+    <% @messages.each do |message| %>
+      <div class="each-message">
+        <h4><%= message.name %></h4>
+        <%= message.email %>
+          </br></br>
+        <%= message.body %>
+          </br>
+      </div>
+        <hr>
+    <% end %>
+  </div>
+    </br>
+  <div class="text-center">
+    <%= will_paginate @messages %>
+  </div>
+</div>
