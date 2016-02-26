@@ -2,7 +2,7 @@
   <div class="row">
     <div class="medium-9 medium-centered columns">
       <div class="info-box-1">
-    
+
       </div>
     </div>
   </div>
@@ -10,12 +10,34 @@
 
 <div class="bg-2">
   Bio / Specialties / Projects
+  <div class="row collapse">
+    <div class="medium-4 columns">
+      <ul class="tabs vertical text-center" data-tab>
+        <li class="tab-title first active"><a href="#panel11">LeadFinder</a></li>
+        <li class="tab-title"><a href="#panel21">tomfafard.com</a></li>
+      </ul>
+    </div>
+    <div class="medium-8 columns">
+      <div class="info-box-2">
+        <div class="tabs-content">
+          <div class="content active" id="panel11">
+            <%=image_tag("leadfinder.png", size: "300x300", class: "leadfinder-image")%>
+
+            <p></p>
+          </div>
+          <div class="content" id="panel21">
+            <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="bg-3">
   <div class="row">
-    <div class="small-5 small-centered columns message-section text-center">
-      <div class="info-box-2">
+    <div class="small-1 small-centered columns message-section text-center">
+      <div class="info-box-3">
         <div class="contact-form">
           <h2>Contact</h2>
           <%= form_for [@message] do |f| %>
