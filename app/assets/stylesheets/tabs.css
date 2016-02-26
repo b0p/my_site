@@ -1,0 +1,35 @@
+.tabs-content {
+  padding-left: 200px;
+}
+
+.tabs {
+}
+
+.tabs.vertical {
+  /* float: left; */
+margin: 0;
+margin-bottom: 1.25rem !important;
+/* max-width: 20%; */
+/* width: 20%; */
+}
+
+.tabs .tab-title.active a {
+  background-color: #33847E;
+  color: #fff;
+}
+
+.tabs .tab-title a {
+  background-color: #01665e;
+  color: #fff;
+}
+
+.tabs .tab-title.first a {
+  background-color: #01665e;
+  color: #fff;
+  border-radius: 25px 0 0 0;
+}
+
+.tabs .tab-title a:hover {
+  background-color: #33847E;
+  color: #fff;
+}
