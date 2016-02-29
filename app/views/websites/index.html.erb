@@ -10,23 +10,50 @@
 
 <div class="bg-2">
   Bio / Specialties / Projects
-  <div class="row collapse">
+  <div class="row">
     <div class="medium-4 columns">
-      <ul class="tabs vertical text-center" data-tab>
+      <ul class="tabs vertical" data-tab>
         <li class="tab-title first active"><a href="#panel11">LeadFinder</a></li>
-        <li class="tab-title"><a href="#panel21">tomfafard.com</a></li>
+        <li class="tab-title last"><a href="#panel21">tomfafard.com</a></li>
       </ul>
     </div>
     <div class="medium-8 columns">
       <div class="info-box-2">
-        <div class="tabs-content">
+        <div class="tabs-content text-center">
           <div class="content active" id="panel11">
-            <%=image_tag("leadfinder.png", size: "300x300", class: "leadfinder-image")%>
-
-            <p></p>
+            <h3>LeadFinder</h3>
+            <%= image_tag("leadfinder.png", size: "300x300", class: "leadfinder-image") %>
+            <br>
+            <br>
+            <%= link_to("Demo Site →", "http://leadfinder.herokuapp.com/", class: :button) %>
+            <%= link_to("View Code →", "https://github.com/tomfafard/lead_finder", class: :button) %>
+            <br>
+            <p>LeadFinder is a simple solution for finding, displaying, and working with sales leads.</p>
+            <h5>Technologies Used:</h5>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>Basic JS</li>
+              <li>PostgreSQL</li>
+              <li>Git Workflow</li>
+              <li>Rspec Testing Suite</li>
+            </ul>
           </div>
           <div class="content" id="panel21">
-            <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+            <h3>tomfafard.com</h3>
+            <%= image_tag("tomfafardsite.png", size: "300x300", class: "tomfafardsite-image") %>
+            <br>
+            <br>
+            <%= link_to("Demo Site →", "http://tomfafard.herokuapp.com/", class: :button) %>
+            <%= link_to("View Code →", "https://github.com/tomfafard/my_site", class: :button) %>
+            <br>
+            <p>tomfafard.com is a personal website used to showcase my works :)</p>
+            <h5>Technologies Used:</h5>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+              <li>Git Workflow</li>
+              <li>Rspec Testing Suite</li>
+            </ul>
           </div>
         </div>
       </div>
