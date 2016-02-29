@@ -10,7 +10,6 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'foundation-rails'
-gem 'rails_12factor'
 
 group :development, :test do
   gem 'pry-rails'
@@ -34,4 +33,8 @@ group :test do
   gem 'shoulda-matchers', '~> 3.0'
   gem 'factory_girl'
   gem 'factory_girl_rails'
+end
+
+group :production do
+  gem 'rails_12factor'
 end
