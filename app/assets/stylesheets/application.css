@@ -16,7 +16,11 @@
 
  */
 
- .tabs.vertical {
- margin: 0;
- margin-bottom: 1.25rem !important;
- }
+ a {
+    outline: 0;
+  }
+
+ul {
+    display:inline-block;
+  	text-align:left;
+  }
