@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'foundation-rails'
+gem 'will_paginate'
 
 group :development, :test do
   gem 'pry-rails'
@@ -19,7 +20,6 @@ group :development, :test do
   gem 'valid_attribute'
   gem 'quiet_assets'
   gem 'byebug'
-  gem 'will_paginate'
 end
 
 group :development do
