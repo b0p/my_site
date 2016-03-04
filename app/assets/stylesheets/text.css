@@ -1,0 +1,41 @@
+#insp-quote {
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  padding-top: 75px;
+}
+
+#insp-quote-credit {
+  text-align: right;
+  font-size: 20px;
+  padding-right: 20px;
+  opacity: 0.85;
+}
+
+#about-me-subtext-1 {
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+#about-me-subtext-2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+#about-me-subtext-3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+#name-label {
+  color: #f2f2f2;
+}
+
+#email-label {
+  color: #f2f2f2;
+}
+
+#body-label {
+  color: #f2f2f2;
+}

@@ -9,3 +9,10 @@
   margin: auto;
   border: 4px solid #01665e;
 }
+
+.me-image {
+  border-radius: 22px 0 0 0;
+  border-right: 4px solid #01665e;
+  border-bottom: 4px solid #01665e;
+  opacity: 1;
+}

@@ -1,11 +1,20 @@
-#submit-header {
-  padding-top: 60px;
-}
-
-#display-messages-header {
-  padding-top: 30px;
+#website-header {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #projects-header {
+  font-family: 'Ubuntu', sans-serif;
+}
 
+#specialties-header {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#contact-header {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#display-messages-header {
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 30px;
 }

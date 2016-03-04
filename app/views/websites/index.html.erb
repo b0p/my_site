@@ -2,7 +2,14 @@
   <div class="row">
     <div class="medium-9 medium-centered columns">
       <div class="info-box-1">
-
+        <%= image_tag("me.jpg", size: "250x250", class: "me-image") %>
+        <div class="subtext-box-1">
+          <p class="text-center" id="insp-quote">"The only way to do great work is to love what you do."</p>
+          <p id="insp-quote-credit">- Steve Jobs</p>
+        </div>
+        <p class="text-center" id="about-me-subtext-1">Hi, my name's Tom. Thanks for taking the time to check out my site.</p>
+        <p class="text-center" id="about-me-subtext-2">I'm a developer in the Boston area aspiring to advance in the field of Software Development, specifically Full-Stack Web Development using Ruby on Rails. If you have any questions or would simply like to get in touch, just drop a line in the messages section below.</p>
+        <p class="text-center" id="about-me-subtext-3">Thanks again, and enjoy your visit!</p>
       </div>
     </div>
   </div>
@@ -54,7 +61,7 @@
               <li>Ruby on Rails</li>
               <li>PostgreSQL Database</li>
               <li>Git Workflow</li>
-              <li>Rspec Testing Suite</li>
+              <!-- <li>Rspec Testing Suite</li> -->
             </ul>
           </div>
         </div>
@@ -68,7 +75,7 @@
           <h2 id="specialties-header">Specialties</h2>
           <ul id="spec-list-1">
             <li>Ruby on Rails</li>
-            <li>Javascript</li>
+            <li>JavaScript</li>
             <li>HTML / CSS</li>
             <li>JSON</li>
           </ul>
@@ -89,15 +96,15 @@
     <div class="small-1 small-centered columns message-section text-center">
       <div class="info-box-4">
         <div class="contact-form">
-          <h2>Contact</h2>
+          <h2 id="contact-header">Contact</h2>
           <%= form_for [@message] do |f| %>
-            <%= f.label :name %>
+            <%= f.label :name, nil, id: 'name-label' %>
             <%= f.text_field :name %>
               </br>
-            <%= f.label :email %>
+            <%= f.label :email, nil, id: 'email-label' %>
             <%= f.text_field :email %>
               </br>
-            <%= f.label :body, "Message" %>
+            <%= f.label :body, "Message", id: 'body-label' %>
             <%= f.text_area :body, size: "5x5" %>
               </br>
             <%= f.submit "Send Message", class: :button %>
