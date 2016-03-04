@@ -14,13 +14,11 @@ TODO:
 
     [x] Deploy to Heroku
 
-    [] Create index page
+    [x] Create index page w/ short bio + quote
 
-    [] Create projects page
+    [x] Create projects page
 
-    [] Create bio page
-
-    [] Create message submission
+    [x] Create message submission
 
     [] Blog?
 
@@ -29,6 +27,6 @@ TODO:
 
     [x] Implement foundation
 
-    [] Clean CSS
+    [x] Clean CSS
 
     [] Finalize CSS
