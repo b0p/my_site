@@ -17,3 +17,10 @@
   background-size: cover;
   overflow: hidden;
 }
+
+.bg-4 {
+  height: 20rem;
+  background-color: #1d1d1d;
+  border: 2px solid #c0c5c7;
+  display: none;
+}

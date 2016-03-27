@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'foundation-rails'
 gem 'will_paginate'
+gem "paperclip"
 
 group :development, :test do
   gem 'pry-rails'
