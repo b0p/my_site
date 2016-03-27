@@ -1,3 +1,7 @@
+.individual-post {
+  list-style: none;
+}
+
 #spec-list-1 {
   padding-left: 100px;
   padding-top: 15px;

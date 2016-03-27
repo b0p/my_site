@@ -2,3 +2,8 @@
   margin-top: 670px;
   position: relative;
 }
+
+#create-post-btn {
+  margin-top: 50px;
+  position: absolute;
+}

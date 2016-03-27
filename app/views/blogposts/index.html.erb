@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="medium-8 columns">
+    <div class="blogposts-list">
+        <h2 id="blogposts-header">Welcome to my Blog.</h2>
+
+        <% @posts.each do |post| %>
+          <ul class="individual-post">
+            <li><h3><%= post.title %></h3></li>
+            <li><%= image_tag post.image.url(:normal) %></li>
+            <li><%= post.body %></li>
+          </ul>
+        <% end %>
+      </br>
+    </div>
+
+  </div>
+  <div class="medium-4 columns">
+    <%= link_to("Create Post", new_blogpost_path, class: "button secondary", id: "create-post-btn") %>
+  </div>
+</div>
