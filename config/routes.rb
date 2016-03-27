@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   resources :websites
   resources :messages
+  resources :blogposts
+  resources :logins
 
   get '/resume', to: 'resumes#index'
 end
