@@ -1,5 +1,5 @@
-$(document).ready(function(e) {
-  $('#adminbtn').click(function(e) {
+$(document).ready(function() {
+  $('#adminbtn').click(function() {
     $('.bg-4').toggle('slow');
     if($('#adminbtn').val()=='Admin Login'){
       $('#adminbtn').val('Hide Admin Login');
@@ -8,7 +8,7 @@ $(document).ready(function(e) {
       $('#adminbtn').val('Admin Login');
       }
     $('html, body').animate({
-      scrollTop: $(".bg-4").offset().top
+      scrollTop: $('.bg-4').offset().top
     }, 'slow');
     });
   });
