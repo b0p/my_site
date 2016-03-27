@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'foundation-rails'
 gem 'will_paginate'
 gem "paperclip"
+gem 'coveralls', require: false
 
 group :development, :test do
   gem 'pry-rails'
@@ -29,7 +30,6 @@ group :development do
 end
 
 group :test do
-  gem 'coveralls', require: false
   gem 'database_cleaner'
   gem 'shoulda-matchers', '~> 3.0'
   gem 'factory_girl'
