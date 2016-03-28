@@ -70,3 +70,13 @@
   border-radius: 25px;
   position: absolute;
 }
+
+.blogpost-box {
+   background-color: rgba(192, 197, 199, 0.95);
+   width: 645px;
+   min-height: 500px;
+   top: 25px;
+   border-radius: 25px;
+   border: 3px solid #3F3F3F;
+   position: relative;
+}
