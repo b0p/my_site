@@ -24,9 +24,16 @@
 }
 
 #new-blogpost-header {
-
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #blogposts-header {
-  
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#individual-post-header {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 45px;
+  margin-right: 45px;
+  color: #191919;
 }

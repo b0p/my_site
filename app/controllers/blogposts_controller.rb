@@ -19,6 +19,11 @@ class BlogpostsController < ApplicationController
     end
   end
 
+  def destroy
+    Blogpost.find(params[:id]).destroy
+    redirect_to blogposts_path
+  end
+
   private
 
   def post_params

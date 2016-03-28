@@ -59,3 +59,16 @@
 #blog-image-label {
   color: #c0c5c7;
 }
+
+#individual-post-body {
+  color: #191919;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+#individual-post-timestamp {
+  color: #3F3F3F;
+  text-align: right;
+  margin-right: 25px;
+}

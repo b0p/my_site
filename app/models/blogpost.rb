@@ -1,6 +1,6 @@
 class Blogpost < ActiveRecord::Base
   has_attached_file :image,
-                    styles: { normal: "600x400" },
+                    styles: { normal: "500x300#" },
                     default_style: :normal
 
   validates_attachment :image,
@@ -8,4 +8,8 @@ class Blogpost < ActiveRecord::Base
                                                       "image/jpeg",
                                                       "image/png",
                                                       "image/gif"] }
+
+  validates :image, attachment_presence: true
+  validates_with AttachmentPresenceValidator, attributes: :image
+  validates_with AttachmentSizeValidator, attributes: :image, less_than: 5.megabytes
 end
