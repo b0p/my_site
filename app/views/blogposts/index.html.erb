@@ -5,13 +5,14 @@
 
         <% @posts.each do |post| %>
           <div class="blogpost-box">
+            <%= link_to '✕', post, method: :delete, data: {confirm: "Are you sure?"}, id: "delete-post-button" %>
             <ul class="individual-post">
               </br>
               <li><h2 class="text-center" id="individual-post-header"><%= post.title.split.map(&:capitalize).join(' ') %></h2></li>
               </br>
               <li id="individual-post-image"><%= image_tag post.image.url %></li>
               </br>
-              <li id="individual-post-body"><%= post.body %></li>
+              <li id="individual-post-body"><%=simple_format h post.body %></li>
               </br>
               <li id="individual-post-timestamp"><%= post.created_at.strftime("Posted %m/%d/%Y") %></li>
             </ul>

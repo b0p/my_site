@@ -4,6 +4,12 @@
 }
 
 #create-post-btn {
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-left: 160px;
   position: absolute;
+}
+
+#delete-post-button {
+  padding-left: 10px;
+  color: #3D3D3D
 }
