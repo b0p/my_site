@@ -18,12 +18,16 @@
 
  a {
     outline: 0;
-  }
+}
 
 ul {
     display:inline-block;
   	text-align:left;
-  }
+}
+
+.inline {
+  display: inline-block;
+}
 
 #specialties-content {
   padding-top: 20px;
