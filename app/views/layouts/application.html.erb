@@ -25,24 +25,21 @@
 
         <section class="top-bar-section">
         <!-- Right Nav Section -->
+        <a id="github-link" href="https://github.com/tomfafard">
+          <img id="github-button" src="/github-black.png"/>
+        </a>
+
+        <a id="linkedin-link" href="https://www.linkedin.com/in/tomfafard">
+          <img id="linkedin-button" src="/linkedin-black.png"/>
+        </a>
+
         <ul class="right">
-          <div class="inline">
-            <a id="github-link" href="https://github.com/tomfafard">
-              <img id="github-button" src="/github-black.png"/>
-            </a>
-          </div>
-          <div class="inline">
-            <a id="linkedin-link" href="https://www.linkedin.com/in/tomfafard">
-              <img id="linkedin-button" src="/linkedin-black.png"/>
-            </a>
-          </div>
-          <div class="inline">
+
             <% if current_page?(controller: 'resumes', action: 'index') %>
               <li><a href="/">← Go Back</a></li>
             <% else %>
               <li><a href="/resume">View Resume →</a></li>
             <% end %>
-          </div>
         </ul>
         </section>
       </nav>
