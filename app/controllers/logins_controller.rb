@@ -6,7 +6,7 @@ class LoginsController < ApplicationController
     if @login_creds.username == @admin.username
       if @login_creds.password == @admin.password
         flash[:notice] = "Signed In as Admin."
-        redirect_to blogposts_path
+        redirect_to messages_path
       else
         flash[:notice] = "Invalid Credentials."
         redirect_to root_path
