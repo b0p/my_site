@@ -23,8 +23,9 @@
     <div class="medium-4 columns">
       <ul class="tabs vertical" data-tab>
         <li class="tab-title first active"><a href="#panel11">LeadFinder</a></li>
-        <li class="tab-title"><a href="#panel21">Expense Tracker</a></li>
-        <li class="tab-title last"><a href="#panel31">tomfafard.com</a></li>
+        <li class="tab-title"><a href="#panel21">LiveStats</a></li>
+        <li class="tab-title"><a href="#panel31">Expense Tracker</a></li>
+        <li class="tab-title last"><a href="#panel41">tomfafard.com</a></li>
       </ul>
     </div>
     <div class="medium-8 columns">
@@ -49,6 +50,24 @@
             </ul>
           </div>
           <div class="content" id="panel21">
+            <h3>LiveStats</h3>
+            <%= image_tag("livestats.png", size: "300x300", class: "livestats-image") %>
+            <br>
+            <br>
+            <%= link_to("Demo Site →", "http://livestats.herokuapp.com/", class: :button) %>
+            <%= link_to("View Code →", "https://github.com/tomfafard/stats_ql", class: :button) %>
+            <br>
+            <p>LiveStats is a stats website for popular online shooter Quake Live. Stats are obtained from Valve's Steam API.</p>
+            <p style="font-style: italic;">This is a work in progress.</p>
+            <h5>Technologies Used:</h5>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>Steam API</li>
+              <li>PostgreSQL Database</li>
+              <li>Git Workflow</li>
+            </ul>
+          </div>
+          <div class="content" id="panel31">
             <h3>Expense Tracker</h3>
             <%= image_tag("expensetracker.png", size: "300x300", class: "expensetracker-image") %>
             <br>
@@ -64,7 +83,7 @@
               <li>Git Workflow</li>
             </ul>
           </div>
-          <div class="content" id="panel31">
+          <div class="content" id="panel41">
             <h3>tomfafard.com</h3>
             <%= image_tag("tomfafardsite.png", size: "300x300", class: "tomfafardsite-image") %>
             <br>
