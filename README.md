@@ -4,4 +4,4 @@
 ![Code Climate](https://codeclimate.com/github/tomfafard/my_site.png)
 [![Coverage Status](https://coveralls.io/repos/github/tomfafard/my_site/badge.svg?branch=master)](https://coveralls.io/github/tomfafard/my_site?branch=master)
 
-[LiveStats.herokuapp.com](http://livestats.herokuapp.com)
+[tomfafard.herokuapp.com](http://tomfafard.herokuapp.com)
