@@ -4,31 +4,4 @@
 ![Code Climate](https://codeclimate.com/github/tomfafard/my_site.png)
 [![Coverage Status](https://coveralls.io/repos/github/tomfafard/my_site/badge.svg?branch=master)](https://coveralls.io/github/tomfafard/my_site?branch=master)
 
-TODO:
-
-  Backend:
-
-    [x] Connect Coveralls / Codeship / Code Climate
-
-    [x] Set up MVC
-
-    [x] Deploy to Heroku
-
-    [x] Create index page w/ short bio + quote
-
-    [x] Create projects page
-
-    [x] Create message submission
-
-    [x] Admin Login
-
-    [] Blog?
-
-
-  CSS:
-
-    [x] Implement foundation
-
-    [x] Clean CSS
-
-    [] Finalize CSS
+[LiveStats.herokuapp.com](http://livestats.herokuapp.com)
